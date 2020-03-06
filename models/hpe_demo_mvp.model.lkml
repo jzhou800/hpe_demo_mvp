@@ -1,5 +1,5 @@
 connection: "@{connection_name}"
-label: "Patient Experience"
+label: "Patient Experience MVP"
 include: "/views/**/*.view"
 
 datagroup: hpe_default_datagroup {
@@ -8,7 +8,7 @@ datagroup: hpe_default_datagroup {
 
 persist_with: hpe_default_datagroup
 
-explore: hospital_rating {
+explore: hospital_rating_mvp {
   view_name: hpe_demo_mvp
 
   join: nps_demo_mvp {
